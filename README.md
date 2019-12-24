@@ -12,6 +12,13 @@ The game can be played by up to 10 players, in case of single-player mode there 
 
 *The purpose of the second player is to allow some time for the first player to remember the sequence.*
 
+## How to run (Mac OSX)
+1. Make sure JDK is installed and in your PATH
+2. `git clone git@github.com:rvelic/catchthebeat.git && cd ./catchthebeat`
+3. `cp -R ./src/catchthebeat/sounds ../sounds`
+4. `javac -classpath $(pwd)/src/ src/catchthebeat/Main.java`
+5. `cd ./src && java -cp $(pwd) catchthebeat.Main`
+
 ### Credits
 
 Developed as part of a programming excercise by Roman Velic and Michal Kabat.
